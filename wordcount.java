@@ -104,3 +104,8 @@ int sum = 0;
  }
  result.set(sum);
  context.write(key, result);
+
+
+
+
+hadoop jar D:\7sem\BDA\wc.jar wordcount.wordcount /bda/word.txt /bda/out
